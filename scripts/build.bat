@@ -8,9 +8,9 @@ REM ============================================================
 
 REM ---- 用户配置区 (换项目只改这里) ----
 set "IAR_HOME=C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3"
-set "PROJECT_DIR=%~dp0.."
+set "PROJECT_DIR=%~dp0..\auto_test\EWARM"
 set "PROJECT_NAME=auto_test"
-set "BUILD_CONFIG=Debug"
+set "BUILD_CONFIG=auto_test"
 REM ---- 配置区结束 ----
 
 REM 命令行参数覆盖

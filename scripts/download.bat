@@ -11,8 +11,8 @@ set "JLINK_HOME=C:\Program Files\SEGGER\JLink"
 set "DEVICE=STM32F103RB"
 set "INTERFACE=SWD"
 set "SPEED=4000"
-set "PROJECT_DIR=%~dp0.."
-set "HEX_FILE=%PROJECT_DIR%Debug\Exe\auto_test.hex"
+set "PROJECT_DIR=%~dp0..\auto_test\EWARM"
+set "HEX_FILE=%PROJECT_DIR%auto_test\Exe\auto_test.hex"
 REM ---- 配置区结束 ----
 
 REM 命令行参数覆盖

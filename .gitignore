@@ -1,0 +1,44 @@
+# IAR 编译输出
+Debug/
+Release/
+**/Debug/
+**/Release/
+
+# IAR 项目临时文件
+*.dep
+*.ewt
+settings/
+
+# IAR 编译中间文件
+*.o
+*.pbi
+*.pbi.dep
+*.xcl
+*.pbd
+*.pbd.browse
+*.pbw
+*.browse
+*.lst
+*.map
+*.hex
+*.out
+*.bin
+*.elf
+*.sim
+*.sfr
+*.tmp
+build.ninja
+.ninja_deps
+.ninja_log
+
+# IAR 备份文件
+Backup*/
+
+# VSCode
+.vscode/
+
+# Claude
+.claude/
+
+# RTT 输出
+rtt_output.txt
